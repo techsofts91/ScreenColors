@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Screen Colors</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="orange">Orange</string>
+    <string name="purple">Purple</string>
+    <string name="green">Green</string>
+    <string name="white">White</string>
+    <string name="test">Test Screen</string>
+    <string name="repair">Repair Multicolor</string>
+    <string name="selMinsHours">Please select minutes or hours</string>
+    <string name="select">"Select"</string>
+    <string name="begin">Begin</string>
+    <string name="how_many">How many </string>
+    <string name="instructions"></string>
+    <string name="enableSound">Enable Sound</string>
+    <string name="speech_finished">Finish</string>
+    <string name="enable_assistant">Enable Assistant</string>
+    <string name="set_speed_stripes">Set speed stripes</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="home_banner">ca-app-pub-6354355213662337/7972693604</string>
+    <!-- ca-app-pub-6354355213662337/7972693604  production add-->
+    <!-- ca-app-pub-3940256099942544/6300978111  test add-->
+
+    <string name="interstitial_full_screen">ca-app-pub-6354355213662337/7117886357</string>
+    <!-- ca-app-pub-6354355213662337/7117886357  production add-->
+    <!-- ca-app-pub-3940256099942544/1033173712  test add-->
+
+    <string name="rewarded_ad">ca-app-pub-6354355213662337/7107699179</string>
+    <!-- ca-app-pub-6354355213662337/7107699179  production add-->
+    <!-- ca-app-pub-3940256099942544/5224354917  test add-->
+
+    <string name="go_premium">No Ads(Go Premium)</string>
+    <string name="more_apps">Check more apps</string>
+    <string name="repair_black_and_white"><![CDATA[Repair Black & White]]></string>
+    <string name="repair_stripes_black_and_white">Stripes repair Black &amp; White</string>
+    <string name="repair_stripes_color">Stripes repair Color</string>
+
+
+    <string-array name="minuteshours">
+        <item>Minutes</item>
+        <item>Hours</item>
+    </string-array>
+
+    <string-array name="speedstripes">
+        <item>50</item>
+        <item>100</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+
+</resources>

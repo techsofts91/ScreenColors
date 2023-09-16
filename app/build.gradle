@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'keyScrnColrs'
+            keyPassword 'android201701'
+            storeFile file('C:/Users/floresrc/Documents/Android Projects/ScreenColors/keyScrnColrs.jks')
+            storePassword 'android2017'
+        }
+    }
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.techsofts.soft.screencolors"
+        minSdk 19
+        targetSdkVersion 33
+        versionCode 36
+        versionName "8.2.1"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        free {
+            minSdkVersion 19
+            targetSdkVersion 33
+        }
+    }
+    flavorDimensions "default"
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.6.1'
+    testImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    //Admob
+    implementation 'com.google.android.gms:play-services-ads:21.1.0'
+    implementation 'androidx.appcompat:appcompat:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    //testImplementation 'junit:junit:4.13.2'
+
+    //AdColony
+    implementation 'com.google.ads.mediation:adcolony:4.8.0.0'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+}

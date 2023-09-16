@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp"
+    android:id="@+id/lytMain"
+    tools:context="com.techsofts.screencolors.RepairStripesBWActivity">
+
+    <TextView
+        android:id="@+id/txtText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selMinsHours"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFF"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select"
+        android:layout_below="@+id/txtText1"
+        android:outlineAmbientShadowColor="@color/repairBWTextColor"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/repairBWTextColor"/>
+    <TextView
+        android:id="@+id/txtText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:text="@string/how_many"
+        android:layout_centerInParent="true"
+        android:textColor="@color/repairBWTextColor"/>
+    <EditText
+        android:id="@+id/edtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtText2"
+        android:layout_centerInParent="true"
+        android:inputType="number"
+        android:digits="1234567890"
+        android:textColor="@color/repairBWTextColor"
+        android:backgroundTint="@color/repairBWTextColor"/>
+    <TextView
+        android:id="@+id/txtText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtText"
+        android:text="@string/set_speed_stripes"
+        android:layout_centerInParent="true"
+        android:textColor="@color/repairBWTextColor"/>
+
+    <Spinner
+        android:id="@+id/spinnerspeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select"
+        android:layout_below="@+id/txtText3"
+        android:outlineAmbientShadowColor="@color/repairBWTextColor"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/repairBWTextColor"/>
+
+    <Button
+        android:id="@+id/btnBegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/begin"
+        android:layout_below="@+id/spinnerspeed"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/txtInstr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/repairBWTextColor"
+        android:layout_below="@+id/btnBegin"
+        android:layout_centerInParent="true"
+        android:gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/chkAssistant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/txtInstr"
+        android:text="@string/enable_assistant"
+        android:textColor="@color/repairBWTextColor"
+        android:textStyle="bold"
+        android:buttonTint="@color/repairBWTextColor"/>
+
+    <FrameLayout
+        android:id="@+id/ad_view_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

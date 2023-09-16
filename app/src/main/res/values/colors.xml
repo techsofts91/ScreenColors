@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="repairTextColor">#285F7C</color>
+    <color name="repairBWTextColor">#FFFFFF</color>
+    <color name="surface_color">#E7E3EA</color>
+
+    <!-- 1st Gradient color -->
+    <color name="coloBlack1">#434343</color>
+    <color name="colorBlack2">#000000</color>
+
+    <!-- 2nd Gradient color -->
+    <color name="colorBlue1">#000428</color>
+    <color name="colorBlue2">#004e92</color>
+
+    <!-- 3rd Gradient color -->
+    <color name="colorRed1">#FF1744</color>
+    <color name="colorRed2">#B71C1C</color>
+
+    <!-- 4th Gradient color -->
+    <color name="colorPurple1">#FF6FD8 </color>
+    <color name="colorPurple2">#3813C2</color>
+
+    <!-- ./ 5th Gradient color -->
+    <color name="colorGreen1">#00E676</color>
+    <color name="colorGreen2">#1B5E20</color>
+
+    <!-- ./ 6th Gradient color -->
+    <color name="colorOrange1">#ff9966</color>
+    <color name="colorOrange2">#ff5e62</color>
+
+    <!-- 7th Gradient color -->
+    <color name="colorAmber1">#FFC400</color>
+    <color name="colorAmber2">#FF6F00</color>
+
+    <!-- 8th Gradient color -->
+    <color name="colorWhite1">#a9a6a7</color>
+    <color name="colorWhite2">#ffffff</color>
+
+    <!-- 9th Gradient color -->
+    <color name="colorShade1">#bdc3c7</color>
+    <color name="colorShade2">#2c3e50</color>
+
+    <!-- 10th Gradient color -->
+    <color name="colorNight1">#000000</color>
+    <color name="colorNight2">#2D3436</color>
+
+    <!-- 11th Gradient color -->
+    <color name="colorOdin1">#5A585A</color>
+    <color name="colorOdin2">#090947</color>
+
+</resources>
